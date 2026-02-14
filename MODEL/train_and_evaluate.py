@@ -349,7 +349,7 @@ def main():
     # Train model
     train_losses, val_losses = train_model(
         model, train_loader, val_loader, 
-        epochs=50, learning_rate=0.001
+        epochs=100, learning_rate=0.001
     )
     
     # Load best model
